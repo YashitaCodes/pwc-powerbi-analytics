@@ -1,0 +1,31 @@
+# Ignore Power BI temporary files
+*.pbix~ 
+
+# Ignore Excel temporary files
+~$*.xlsx
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+
+# Ignore node_modules (if applicable for documentation or other scripts)
+node_modules/
+npm-debug.log
+
+# Ignore Python cache files (if using Python scripts)
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment (if using Python virtualenv)
+venv/
+.env/
+
+# Ignore Mac system files
+*.DS_Store
+
+# Ignore Power BI auto-recovery files
+*.autosave.pbix
